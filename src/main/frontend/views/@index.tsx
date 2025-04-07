@@ -7,9 +7,24 @@ import { ViewConfig } from "@vaadin/hilla-file-router/types.js";
 
 export const config: ViewConfig = {
     menu: {
+        title: 'Dashboard',
+    },
+};
+export default function Dashboard() {
+    return (
+        <div className="p-m">
+            <h2>Result Message Management</h2>
+            <p>Sol menüden işlem seçebilirsiniz: Yeni kayıt ekleyin ya da kayıtları görüntüleyin.</p>
+        </div>
+    );
+}
+
+/*export const config: ViewConfig = {
+    menu: {
         title: 'Contacts',
     },
 };
+
 
 export default function ContactsView() {
     const [contacts, setContacts] = useState<ContactRecord[]>([]);
@@ -47,4 +62,5 @@ export default function ContactsView() {
             }
         </div>
     );
-}
+}*/
+

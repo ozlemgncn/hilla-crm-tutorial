@@ -1,8 +1,8 @@
 import type { ViewConfig } from '@vaadin/hilla-file-router/types.js';
 
-export const config: ViewConfig = {
+/*export const config: ViewConfig = {
   menu: {
-    title: 'About',
+        title: 'About',
   },
 };
 
@@ -15,4 +15,4 @@ export default function About() {
       </p>
     </div>
   );
-}
+}*/
